@@ -72,7 +72,7 @@ const App = () => {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="Login" component={LoginScreen} />
+        {/* <Stack.Screen name="Login" component={LoginScreen} /> */}
         <Stack.Screen name="Main" component={DrawerNavigatopn} />
       </Stack.Navigator>
     </NavigationContainer>
